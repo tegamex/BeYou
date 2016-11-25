@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.refresh;
+package com.example.frz.beyou.widget.refresh;
 
 
 
@@ -10,9 +10,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.widget.lib.MultiColumnListView;
-import com.example.frz.hairdev.widget.lib.internal.PLA_AbsListView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.widget.lib.MultiColumnListView;
+import com.example.frz.beyou.widget.lib.internal.PLA_AbsListView;
 
 
 public class XSwipeRefreshLayout extends SwipeRefreshLayout implements PLA_AbsListView.OnScrollListener {

@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.lib;
+package com.example.frz.beyou.widget.lib;
 
 import android.os.Parcel;
 import android.os.Parcelable;

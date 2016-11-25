@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.BeYou.adapter;
+package com.example.frz.beyou.BeYou.adapter;
 
 import java.util.ArrayList;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.frz.hairdev.widget.lib.internal;
+package com.example.frz.beyou.widget.lib.internal;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -45,7 +45,7 @@ import android.widget.Adapter;
 import android.widget.ListAdapter;
 import android.widget.Scroller;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 /**
  * Base class that can be used to implement virtualized lists of items. A list

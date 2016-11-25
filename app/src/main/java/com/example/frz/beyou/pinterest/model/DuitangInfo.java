@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.pinterest.model;
+package com.example.frz.beyou.pinterest.model;
 
 public class DuitangInfo {
 

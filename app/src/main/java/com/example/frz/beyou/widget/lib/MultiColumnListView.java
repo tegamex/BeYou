@@ -14,7 +14,7 @@
  * limitations under the License.
  *******************************************************************************/
 
-package com.example.frz.hairdev.widget.lib;
+package com.example.frz.beyou.widget.lib;
 
 
 import android.content.Context;
@@ -25,10 +25,10 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.widget.lib.ParcelableSparseIntArray;
-import com.example.frz.hairdev.widget.lib.internal.PLA_AbsListView;
-import com.example.frz.hairdev.widget.lib.internal.PLA_ListView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.widget.lib.ParcelableSparseIntArray;
+import com.example.frz.beyou.widget.lib.internal.PLA_AbsListView;
+import com.example.frz.beyou.widget.lib.internal.PLA_ListView;
 
 /**
  * @author huewu.ynag

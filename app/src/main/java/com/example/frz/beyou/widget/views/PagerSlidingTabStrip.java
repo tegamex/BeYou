@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.frz.hairdev.widget.views;
+package com.example.frz.beyou.widget.views;
 
 import java.util.Locale;
 
@@ -41,7 +41,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 
 public class PagerSlidingTabStrip extends HorizontalScrollView {

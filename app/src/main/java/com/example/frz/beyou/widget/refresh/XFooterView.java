@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.refresh;
+package com.example.frz.beyou.widget.refresh;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.animation.RotateAnimation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 public class XFooterView extends LinearLayout {
     public final static int STATE_NORMAL = 0;

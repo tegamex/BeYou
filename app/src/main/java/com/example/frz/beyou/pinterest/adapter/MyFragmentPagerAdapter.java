@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.pinterest.adapter;
+package com.example.frz.beyou.pinterest.adapter;
 
 import java.util.ArrayList;
 

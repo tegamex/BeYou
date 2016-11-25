@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.frz.hairdev.widget.lib.internal;
+package com.example.frz.beyou.widget.lib.internal;
 
 import java.util.ArrayList;
 
@@ -38,7 +38,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.widget.ListAdapter;
 import android.widget.WrapperListAdapter;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 /*
  * Implementation Notes:

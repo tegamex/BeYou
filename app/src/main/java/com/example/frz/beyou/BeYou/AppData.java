@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.BeYou;
+package com.example.frz.beyou.BeYou;
 
 
 import java.io.File;

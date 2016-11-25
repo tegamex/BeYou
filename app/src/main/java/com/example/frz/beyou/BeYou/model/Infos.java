@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.BeYou.model;
+package com.example.frz.beyou.BeYou.model;
 
 import java.util.List;
 

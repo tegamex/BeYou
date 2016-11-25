@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.pinterest;
+package com.example.frz.beyou.pinterest;
 
 
 import java.io.IOException;
@@ -28,10 +28,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.pinterest.adapter.StaggeredAdapter;
-import com.example.frz.hairdev.pinterest.model.DuitangInfo;
-import com.example.frz.hairdev.widget.refresh.XMultiColumnListView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.pinterest.adapter.StaggeredAdapter;
+import com.example.frz.beyou.pinterest.model.DuitangInfo;
+import com.example.frz.beyou.widget.refresh.XMultiColumnListView;
 
 
 public class FragmentPlaFeeds extends Fragment {

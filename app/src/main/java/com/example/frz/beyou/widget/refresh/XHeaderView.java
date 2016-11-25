@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.refresh;
+package com.example.frz.beyou.widget.refresh;
 
 
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 
 public class XHeaderView extends LinearLayout {

@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.refresh;
+package com.example.frz.beyou.widget.refresh;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
+import com.example.frz.beyou.R;
 
 
 public class XListView extends ListView implements OnScrollListener {

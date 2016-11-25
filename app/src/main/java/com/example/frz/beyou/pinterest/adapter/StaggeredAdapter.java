@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.pinterest.adapter;
+package com.example.frz.beyou.pinterest.adapter;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.pinterest.AppData;
-import com.example.frz.hairdev.pinterest.model.DuitangInfo;
-import com.example.frz.hairdev.widget.views.ScaleImageView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.pinterest.AppData;
+import com.example.frz.beyou.pinterest.model.DuitangInfo;
+import com.example.frz.beyou.widget.views.ScaleImageView;
 
 public class StaggeredAdapter extends BaseAdapter {
     private Context mContext;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.frz.hairdev.widget.lib.internal;
+package com.example.frz.beyou.widget.lib.internal;
 
 import android.content.Context;
 import android.database.DataSetObserver;

@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.views;
+package com.example.frz.beyou.widget.views;
 
 import android.content.Context;
 import android.graphics.Bitmap;

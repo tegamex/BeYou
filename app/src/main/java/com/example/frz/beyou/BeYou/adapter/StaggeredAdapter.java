@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.BeYou.adapter;
+package com.example.frz.beyou.BeYou.adapter;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -11,10 +11,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.BeYou.AppData;
-import com.example.frz.hairdev.BeYou.model.DuitangInfo;
-import com.example.frz.hairdev.widget.views.ScaleImageView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.BeYou.AppData;
+import com.example.frz.beyou.BeYou.model.DuitangInfo;
+import com.example.frz.beyou.widget.views.ScaleImageView;
 
 public class StaggeredAdapter extends BaseAdapter {
     private Context mContext;

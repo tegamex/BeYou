@@ -1,4 +1,4 @@
-package com.example.frz.hairdev.widget.refresh;
+package com.example.frz.beyou.widget.refresh;
 
 
 import android.annotation.TargetApi;
@@ -17,9 +17,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Scroller;
 
-import com.example.frz.hairdev.R;
-import com.example.frz.hairdev.widget.lib.MultiColumnListView;
-import com.example.frz.hairdev.widget.lib.internal.PLA_AbsListView;
+import com.example.frz.beyou.R;
+import com.example.frz.beyou.widget.lib.MultiColumnListView;
+import com.example.frz.beyou.widget.lib.internal.PLA_AbsListView;
 
 public class XMultiColumnListView extends MultiColumnListView implements PLA_AbsListView.OnScrollListener {
 //    private static final String TAG = "XListView";
