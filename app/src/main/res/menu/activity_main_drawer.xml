@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_singup"
+            android:title="Registro" />
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_promotion"
+            android:title="Promociones" />
+        <item
+            android:id="@+id/nav_reserva"
+            android:title="Reserva" />
+        <item
+            android:id="@+id/nav_user_profile"
+            android:title="Perfil de Usuario" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+
+                android:title="Informacion" />
+
+        </menu>
+    </item>
+
+</menu>
+    <!--android:icon="@drawable/ic_menu_share"-->
