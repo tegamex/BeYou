@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="?attr/actionBarSize"
             android:id="@+id/fragment"
-            android:name="com.example.frz.hairdev.BeYou.FragmentFeeds"/>
+            android:name="com.example.frz.beyou.BeYou.FragmentFeeds"/>
 
     </android.support.design.widget.CoordinatorLayout>
 
