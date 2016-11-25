@@ -5,15 +5,16 @@
     android:layout_height="wrap_content"
     android:background="#aaaaaa"
     android:orientation="vertical" >
-    <!--
-    <com.example.frz.hairdev.widget.views.ScaleImageView
+
+    <com.example.frz.beyou.widget.views.ScaleImageView
         android:id="@+id/news_pic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:scaleType="centerCrop"
         android:src="@null" />
-        -->
+
+    <!--
      <ImageView
        android:id="@+id/news_pic"
        android:layout_width="match_parent"
@@ -22,7 +23,7 @@
        android:adjustViewBounds="true"
        android:clickable="true"
        android:scaleType="centerCrop" />
-
+-->
     <TextView
         android:id="@+id/news_title"
         android:layout_width="wrap_content"
