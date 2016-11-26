@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:weightSum="11"
+    android:weightSum="13"
     android:orientation="vertical"
     >
     <LinearLayout
@@ -241,11 +241,89 @@
             android:layout_marginStart="7dp" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_marginTop="20dp"
+            android:id="@+id/foto_servicio2"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_below="@+id/recepcion_diagnostico2"
+            android:layout_alignStart="@+id/recepcion_diagnostico2"
+            android:layout_alignLeft="@+id/recepcion_diagnostico2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+
+        <TextView
+            android:text="Recepcion de diagnostico :  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recepcion_diagnostico2"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:textSize="12sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Ver Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ver_datalle2"
+            android:layout_alignTop="@+id/foto_personal2"
+            android:layout_toRightOf="@+id/nombre_peluquero2"
+            android:layout_toEndOf="@+id/nombre_peluquero2"
+            android:layout_marginTop="7dp"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/foto_personal2"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_alignTop="@+id/foto_servicio2"
+            android:layout_toRightOf="@+id/foto_servicio2"
+            android:layout_toEndOf="@+id/foto_servicio2"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp" />
+
+        <TextView
+            android:text="Juanito Tamariz Mejia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre_peluquero2"
+            android:textSize="14sp"
+            android:textScaleX="1"
+            android:layout_alignBaseline="@+id/ver_datalle2"
+            android:layout_alignBottom="@+id/ver_datalle2"
+            android:layout_toRightOf="@+id/foto_personal2"
+            android:layout_toEndOf="@+id/foto_personal2"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp" />
+    </RelativeLayout>
+
+
     <LinearLayout
+        android:layout_weight="2"
         android:layout_gravity="bottom"
         android:gravity="right"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal">
 
         <Button
