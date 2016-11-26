@@ -7,14 +7,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import com.example.frz.beyou.HomeFragment;
-import com.example.frz.beyou.NotificationFragment;
-import com.example.frz.beyou.ProfileFragment;
-import com.example.frz.beyou.PromotionFragment;
-import com.example.frz.beyou.RegisterFragment;
-import com.example.frz.beyou.ReservaFragment;
-import com.example.frz.beyou.UserProfileFragment;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     static private MainActivity instance;
@@ -79,7 +71,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new ProfileFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new FeaturesFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_profile:
                 getSupportFragmentManager().beginTransaction()

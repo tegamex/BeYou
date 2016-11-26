@@ -32,9 +32,22 @@ public class MuralFragment extends Fragment implements SwipeRefreshLayout.OnRefr
     int[] lista={R.drawable.arrow_down,R.drawable.arrow_up,R.drawable.border,R.drawable.ic_meepo,R.drawable.ic_meepo2};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_mural, null);
+        View v = inflater.inflate(R.layout.fragment_mural, container,false);
         Toolbar toolbar = (Toolbar)v.findViewById(R.id.toolbar);
-        //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        toolbar.inflateMenu(R.menu.main);
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.action_settings:
+                        getActivity().getSupportFragmentManager().beginTransaction()
+                        .setCustomAnimations(R.anim.enter,R.anim.exit).replace(R.id.fragment,new ProfileFragment())
+                                .addToBackStack(null).commit();
+                        return true;
+                }
+                return false;
+            }
+        });
         drawer = (DrawerLayout) v.findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 getActivity(), drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -43,39 +56,8 @@ public class MuralFragment extends Fragment implements SwipeRefreshLayout.OnRefr
 
         NavigationView navigationView = (NavigationView) v.findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        /*
-        swipe=(SwipeRefreshLayout)v.findViewById(R.id.swipe_layout);
-        swipe.setOnRefreshListener(this);
-        swipe.setColorSchemeColors(getResources().getColor(android.R.color.background_dark),
-                getResources().getColor(android.R.color.holo_green_light),
-                getResources().getColor(android.R.color.holo_orange_light),
-                getResources().getColor(android.R.color.holo_red_light));
-        //listView.setAdapter(new Adapter(getContext(), Arrays.asList(R.drawable.arrow_down,R.drawable.arrow_up,R.drawable.border,R.drawable.ic_meepo,R.drawable.ic_meepo2)));
 
-        listView = (XMultiColumnListView)v.findViewById(R.id.list);
-
-        listView.setPullRefreshEnable(false);
-        listView.setPullLoadEnable(true);
-        listView.setAutoLoadEnable(true);
-        listView.setAdapter( new StaggeredAdapter(getContext()));
-*/
         return v;
-    }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-        setHasOptionsMenu(true);
-
-    }@Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        //inflater.inflate(R.menu.main, menu);  // Use filter.xml from step 1
-        menu.add(0, R.id.action_settings, 0,
-                getResources().getString(R.string.action_settings))
-                .setIcon(R.drawable.ic_launcher)
-                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
     @Override
@@ -86,7 +68,6 @@ public class MuralFragment extends Fragment implements SwipeRefreshLayout.OnRefr
             }
         }, 3000);
     }
-
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
