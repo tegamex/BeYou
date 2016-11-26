@@ -30,10 +30,6 @@ import com.example.frz.beyou.widget.lib.ParcelableSparseIntArray;
 import com.example.frz.beyou.widget.lib.internal.PLA_AbsListView;
 import com.example.frz.beyou.widget.lib.internal.PLA_ListView;
 
-/**
- * @author huewu.ynag
- * @date 2012-11-06
- */
 public class MultiColumnListView extends PLA_ListView {
 
 	@SuppressWarnings("unused")

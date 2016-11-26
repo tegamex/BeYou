@@ -5,9 +5,7 @@ import android.os.Parcelable;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 
-/**
- * Created by juyeong on 7/15/14.
- */
+
 public class ParcelableSparseIntArray extends SparseIntArray implements Parcelable {
 
     public ParcelableSparseIntArray() {
