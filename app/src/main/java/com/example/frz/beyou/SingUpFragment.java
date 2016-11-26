@@ -17,7 +17,7 @@ public class SingUpFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         getActivity().getSupportFragmentManager().beginTransaction()
                 .setCustomAnimations(R.anim.enter,R.anim.exit)
-                .replace(R.id.fragment,new ProfileFragment()).commit();
+                .replace(R.id.fragment,new FeaturesFragment()).commit();
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

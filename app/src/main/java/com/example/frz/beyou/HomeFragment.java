@@ -38,7 +38,7 @@ public class HomeFragment extends NewFragment implements View.OnClickListener{
             case R.id.loginGO:
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit)
-                        .replace(R.id.fragment,new ProfileFragment()).commit();
+                        .replace(R.id.fragment,new FeaturesFragment()).commit();
                 break;
             case R.id.register:
                 getActivity().getSupportFragmentManager().beginTransaction()
