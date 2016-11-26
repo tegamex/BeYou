@@ -53,10 +53,85 @@
             android:text="Calificacion de servicio"/>
         
         <LinearLayout
+            android:layout_weight="3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8">
 
+            <Button
+                android:layout_weight="1.2"
+                android:text="Calificar"
+                android:textSize="10sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/foto_personal"
+                />
+
+            <Button
+                android:layout_weight="1.8"
+                android:text="Calificacion"
+                android:textSize="10sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre_pelquero"
+                />
+
+            <EditText
+                android:layout_weight="5"
+                android:id="@+id/input_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Comentarios: " />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calificacion de Peluqueria (opcional)"/>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <Button
+                android:layout_weight="1.2"
+                android:text="Calificar"
+                android:textSize="10sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/foto_personal"
+                />
+
+            <Button
+                android:layout_weight="1.8"
+                android:text="Calificacion"
+                android:textSize="10sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre_pelquero"
+                />
+
+            <EditText
+                android:layout_weight="5"
+                android:id="@+id/input_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Comentarios: " />
 
         </LinearLayout>
 
@@ -65,14 +140,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_weight="1"
         android:gravity="center">
         <Button
-            android:text="Cancelar Reserva"
+
+            android:text="Modificar Datos personales"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/cancela_reserva"
-             />
+            android:id="@+id/modifu_datos_pers"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:text="Calificar"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calificar"
+            />
     </LinearLayout>
 
 
