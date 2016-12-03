@@ -6,71 +6,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:weightSum="18">
+    android:weightSum="12">
 
     <LinearLayout
         android:layout_weight="4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:weightSum="3"
         android:orientation="horizontal">
-
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="2">
-
-            <TextView
-                android:layout_gravity="left"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Datos Personales"/>
-
-            <GridLayout
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:rowCount="2"
-                android:columnCount="2">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nombres Completos"/>
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Distrito"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edad" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Correo Electronico"/>
-
-            </GridLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center">
 
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="60dp"
+                android:scaleX="2"
+                android:scaleY="2"
                 android:src="@drawable/ic_meepo"
                 />
-
-
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="10sp"
+        >
+        
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Completo"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo Electronico"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edad"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distrito"/>
 
     </LinearLayout>
 
@@ -79,13 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="5">
-
-        <TextView
-            android:layout_gravity="left"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ultimos servicios"/>
+        android:layout_weight="2">
 
         <LinearLayout
             android:gravity="center"
@@ -118,127 +101,60 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_weight="9"
+    <ScrollView
+        android:layout_weight="5"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        android:weightSum="8">
+        android:layout_height="0dp">
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:text="Datos Aplicativo"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/textView14" />
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:gravity="center"
-            android:layout_weight="4"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="4">
-
-            <ImageView
-                android:scaleY="1.5"
-                android:scaleX="1.5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/imageView7"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:scaleY="1.5"
-                android:scaleX="1.5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/imageView7"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:scaleY="1.5"
-                android:scaleX="1.5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/imageView7"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:scaleY="1.5"
-                android:scaleX="1.5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/imageView7"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:gravity="center"
-            android:layout_weight="2"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:weightSum="2">
 
-            <Button
-                android:gravity="center"
-                android:id="@+id/afiliationid"
+            <LinearLayout
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Afiliación cuenta banc."/>
+                android:orientation="vertical"
+                android:gravity="center">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titulo de la foto"/>
 
-            <TextView
-                android:gravity="center"
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Frecuencia de visita"/>
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titulo de la foto"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:gravity="center"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="3">
-
-            <Button
-                android:text="Modificar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/button11"
-                android:layout_weight="1" />
-
-            <Button
-                android:text="Navegar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/button10"
-                android:layout_weight="1" />
-
-            <Button
-                android:text="Dar de Baja la cuenta"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/button9"
-                android:layout_weight="1" />
-        </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 
 
