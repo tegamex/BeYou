@@ -81,8 +81,34 @@ public class MainActivity extends AppCompatActivity
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.principal,new ReservaFragment()).addToBackStack(null).commit();
                 break;
-
-
+            case R.id.nav_user_publish:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new PublishFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_calification:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new ServiceCalification()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_diagnostic:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new DiagnosticFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_LogOut:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new LoadFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_message:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new MessageFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_Reserva:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new RequestReservationFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.nav_user_sube_imagen:
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.principal,new SelectImageFragment()).addToBackStack(null).commit();
+                break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
