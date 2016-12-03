@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:weightSum="12">
+    android:weightSum="13">
 
     <LinearLayout
         android:layout_weight="4"
@@ -152,10 +152,30 @@
 
             </LinearLayout>
 
+
         </LinearLayout>
 
     </ScrollView>
 
 
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/afiliationid"
+            android:text="Afiliar metodo de pago"/>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

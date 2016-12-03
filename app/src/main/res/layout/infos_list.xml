@@ -3,7 +3,8 @@
     android:id="@+id/news_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#aaaaaa"
+    android:background="#F5F1DE"
+    android:padding="10dp"
     android:orientation="vertical" >
 
     <com.example.frz.beyou.widget.views.ScaleImageView
@@ -38,5 +39,10 @@
         android:layout_gravity="right|bottom"
         android:gravity="right"
         android:textColor="#9f9f9f" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/like"
+        android:src="@drawable/menu_info"/>
 
 </LinearLayout>

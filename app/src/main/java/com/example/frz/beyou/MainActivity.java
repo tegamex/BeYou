@@ -55,59 +55,59 @@ public class MainActivity extends AppCompatActivity
         switch (id){
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new HomeFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new HomeFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_singup:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new RegisterFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new RegisterFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_notification:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new NotificationFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new NotificationFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_promotion:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new PromotionFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new PromotionFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new FeaturesFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new FeaturesFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_profile:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new UserProfileFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new UserProfileFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_reserva:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new ReservaFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new ReservaFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_publish:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new PublishFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new PublishFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_calification:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new ServiceCalification()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new ServiceCalification()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_diagnostic:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new DiagnosticFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new DiagnosticFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_LogOut:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new LoadFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new LoadFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_message:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new MessageFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new MessageFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_Reserva:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new RequestReservationFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new RequestReservationFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_user_sube_imagen:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.principal,new SelectImageFragment()).addToBackStack(null).commit();
+                        .replace(R.id.fragmento,new SelectImageFragment()).addToBackStack(null).commit();
                 break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

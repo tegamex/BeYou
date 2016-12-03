@@ -24,6 +24,7 @@ import android.os.AsyncTask.Status;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -110,7 +111,7 @@ public class FragmentFeeds2 extends Fragment {
 			}
 		});
 
-        mAdapter = new StaggeredAdapter(mContext);
+        mAdapter = new StaggeredAdapter(mContext,(AppCompatActivity)getActivity());
 		
 		
 		return mView;

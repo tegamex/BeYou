@@ -26,9 +26,10 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
         switch (v.getId()){
             case R.id.afiliationid:
                 Log.i("mensaje","ggwp");
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .setCustomAnimations(R.anim.zoom_in,R.anim.zoom_out)
-                        .add(R.id.fragment,new AfiliationFragment()).addToBackStack(null).commit();
+                //getActivity().getSupportFragmentManager().beginTransaction()
+                        //.setCustomAnimations(R.anim.zoom_in,R.anim.zoom_out)
+                //        .add(R.id.fragment,new AfiliationFragment()).commit();
+                new AfiliationFragment().show(getActivity().getSupportFragmentManager(),"asd");
                 Log.i("mensaje","ggwp2");
 
                 break;
