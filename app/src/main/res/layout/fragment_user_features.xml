@@ -45,28 +45,28 @@
             android:gravity="center"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto1"
+                android:id="@+id/tipo_cabello1"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto2"
+                android:id="@+id/tipo_cabello2"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/tipo_cabello3"
                 />
 
         </LinearLayout>
@@ -96,63 +96,63 @@
             android:gravity="center"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto1"
+                android:id="@+id/color_cabello1"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto2"
+                android:id="@+id/color_cabello2"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello3"
                 />
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello4"
                 />
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello5"
                 />
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello6"
                 />
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello7"
                 />
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/color_cabello8"
                 />
 
         </LinearLayout>
@@ -183,36 +183,36 @@
             android:gravity="center"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto1"
+                android:id="@+id/largo_cabello1"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto2"
+                android:id="@+id/largo_cabello2"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/largo_cabello3"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/largo_cabello4"
                 />
 
         </LinearLayout>
@@ -243,28 +243,28 @@
             android:gravity="center"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto1"
+                android:id="@+id/forma_rostro1"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto2"
+                android:id="@+id/forma_rostro2"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/ic_launcher"
-                android:id="@+id/foto3"
+                android:id="@+id/forma_rostro3"
                 />
 
         </LinearLayout>
